@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E2E2E2;
+}   
+.creditos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+   
+    animation: go-up 1s infinite alternate;
+  }
+  
+  @keyframes go-up {
+    from {
+      transform: translateY(7px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
